@@ -1,3 +1,10 @@
+# My custom version from Mriscoc's professional firmware for ender3 V2 and S1
+## My printer devitations from normal Ender 3 V2
+- micro swiss ng
+- Bl touch
+- filament run out sensor connected to z-stop
+
+
 # Professional Firmware for the Creality Ender 3 V2/S1 Printers
 
 ![GitHub contributors](https://img.shields.io/github/contributors/mriscoc/Ender3V2S1.svg)
