@@ -706,9 +706,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp  22.89
-    #define DEFAULT_Ki   1.87
-    #define DEFAULT_Kd  70.18
+    #define DEFAULT_Kp  28.23
+    #define DEFAULT_Ki   5.51
+    #define DEFAULT_Kd  36.13
   #endif
 #else
   #define BANG_MAX 255    // Limit hotend current while in bang-bang mode; 255=full current
@@ -799,9 +799,9 @@
 
   // 120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   // from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define DEFAULT_bedKp 462.10
-  #define DEFAULT_bedKi  85.47
-  #define DEFAULT_bedKd 624.59
+  #define DEFAULT_bedKp 153.84
+  #define DEFAULT_bedKi  27.47
+  #define DEFAULT_bedKd 574.35
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #else
@@ -1645,7 +1645,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -45, -10, -1.70 }  //changed to micro swiss ng bltouch mount location
+#define NOZZLE_TO_PROBE_OFFSET { -52, -10, -1.70 }  //changed to micro swiss ng bltouch mount location
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
 #define PROBING_TOOL 0
@@ -2221,7 +2221,7 @@
   //#define MESH_EDIT_GFX_OVERLAY   // Display a graphics overlay while editing the mesh
 
   #define MESH_INSET 25              // Set Mesh bounds as an inset region of the bed  // MRiscoC Center mesh
-  #define GRID_MAX_POINTS_X 5      // Don't use more than 15 points per axis, implementation limited.  // MRiscoC Customizable by menu
+  #define GRID_MAX_POINTS_X 9      // Don't use more than 15 points per axis, implementation limited.  // MRiscoC Customizable by menu
   #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
 
   //#define UBL_HILBERT_CURVE       // Use Hilbert distribution for less travel when probing multiple points
@@ -3530,7 +3530,7 @@
   #define RUNOUT_TUNE_ITEM     // Allows enable/disable the run out filament sensor while printing
   #define PLR_TUNE_ITEM        // Allows enable/disable the power lost recovery while printing
   //#define JD_TUNE_ITEM         // Enable only if Juntion Deviation is enabled
-  //#define ADVK_TUNE_ITEM       // Enable only if Linear Advance is enabled
+  #define ADVK_TUNE_ITEM       // Enable only if Linear Advance is enabled
   //#define MEDIASORT_MENU_ITEM  // Allows enable/disable file list sorting
   #define SHOW_SPEED_IND       // Show the axes speed in mm/s intermittently with the speed percentage
   //#define NO_BLINK_IND         // Disables dashboard icon background blink indicator
