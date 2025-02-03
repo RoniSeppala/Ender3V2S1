@@ -1309,7 +1309,7 @@
  * Override with M203
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_FEEDRATE          { 500, 500, 10, 45 }
+#define DEFAULT_MAX_FEEDRATE          { 500, 500, 10, 50 }
 
 #define DEFAULT_FEEDRATE_MM_M (50*60)
 
