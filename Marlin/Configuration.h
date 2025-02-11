@@ -1353,8 +1353,8 @@
  */
 #define CLASSIC_JERK  // Ender Configs
 #if ENABLED(CLASSIC_JERK)
-  #define DEFAULT_XJERK 15.0  // Ender Configs
-  #define DEFAULT_YJERK 15.0  // Ender Configs
+  #define DEFAULT_XJERK 20.0  // Ender Configs
+  #define DEFAULT_YJERK 20.0  // Ender Configs
   #define DEFAULT_ZJERK  0.4  // Ender Configs
   #define DEFAULT_EJERK  11.0  // Ender Configs
   //#define DEFAULT_IJERK  0.3
