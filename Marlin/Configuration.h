@@ -1645,7 +1645,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -52, -10, -1.70 }  //changed to micro swiss ng bltouch mount location
+#define NOZZLE_TO_PROBE_OFFSET { -20.3, -51.3, -1.70 }  //changed to micro swiss ng bltouch mount location
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
 #define PROBING_TOOL 0
