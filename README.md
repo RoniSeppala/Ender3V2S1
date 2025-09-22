@@ -3,7 +3,7 @@
 - micro swiss ng
 - Bl touch
 - filament run out sensor connected to z-stop
-- Dual 5015 cooling shroud by ![@Conor on printables](https://www.printables.com/model/321906-micro-swiss-ng-dual-5015-v2-fan-shroud)
+- [Dual 5015 cooling shroud by @Conor on Printables](https://www.printables.com/model/321906-micro-swiss-ng-dual-5015-v2-fan-shroud)
 
 
 # Professional Firmware for the Creality Ender 3 V2/S1 Printers
